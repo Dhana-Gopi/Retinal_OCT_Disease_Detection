@@ -1,0 +1,26 @@
+# Retinal OCT project - pinned versions actually installed in the
+# conda env "Retinal_OCT_Project" (Python 3.14.6, macOS Apple Silicon).
+# Install with:  pip install -r requirements.txt
+
+# Deep learning
+torch==2.15.0
+torchvision==0.29.2
+
+# Data loading (Hugging Face) and numerical work
+datasets==5.2.0
+huggingface_hub==2.4.0
+pyarrow==26.0.1
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+pillow==13.0.0
+
+# Plots, app, notebook kernel
+matplotlib==3.11.2
+streamlit==1.67.0
+ipykernel==7.4.0
+
+# Documentation generation (report .docx, slides .pptx, reading the brief PDF)
+python-pptx==1.0.2
+python-docx==1.2.0
+pypdf==7.1.1
